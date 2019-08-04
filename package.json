@@ -2,7 +2,7 @@
   "name": "material-palenight-ui",
   "version": "0.2.0",
   "theme": "ui",
-  "description": "Material Palenight UI Theme for Inkdrop",
+  "description": "Material Palenight UI theme for Inkdrop",
   "styleSheets": [
     "theme.min.css"
   ],
