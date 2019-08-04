@@ -51,7 +51,7 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
+@primaryColor        : #c792ea;
 @secondaryColor      : @black;
 
 @lightPrimaryColor   : @lightBlue;
@@ -121,7 +121,7 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : #292d3e;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
@@ -431,8 +431,8 @@
 --------------------*/
 
 @darkTextColor               : rgba(255, 255, 255, 0.95);
-@mutedTextColor              : rgba(255, 255, 255, 0.6);
-@lightTextColor              : rgba(255, 255, 255, 0.50);
+@mutedTextColor              : rgb(108, 115, 154);
+@lightTextColor              : rgb(146, 154, 201);
 
 @unselectedTextColor         : rgba(255, 255, 255, 0.4);
 @hoveredTextColor            : rgba(255, 255, 255, 0.8);

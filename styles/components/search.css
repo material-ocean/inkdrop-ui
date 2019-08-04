@@ -129,7 +129,7 @@
 .ui.search > .results .result .description {
   margin-top: 0;
   font-size: 0.92857143em;
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
 }
 .ui.search > .results .result .price {
   float: right;
@@ -351,7 +351,7 @@
   font-size: 1em;
   padding: 0.4em 1em;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
   border-bottom: 1px solid rgba(24, 26, 28, 0.1);
 }
 

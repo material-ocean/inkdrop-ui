@@ -267,7 +267,7 @@
 .ui.cards > .card .meta,
 .ui.card .meta {
   font-size: 1em;
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
 }
 .ui.cards > .card .meta *,
 .ui.card .meta * {
@@ -313,7 +313,7 @@
 /* Meta */
 .ui.cards > .card .meta > a:not(.ui),
 .ui.card .meta > a:not(.ui) {
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
 }
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
@@ -408,7 +408,7 @@
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: color 0.1s ease;

@@ -1,3 +1,42 @@
 /*******************************
         Global Overrides
 *******************************/
+
+@sidebarSyncStatusViewBackground: #32374c;
+@noteListBarBackground: #292d3e;
+@noteListViewItemActiveBackground: rgba(146, 154, 201, 0.05);
+@noteListViewItemActiveColor: @lightTextColor;
+@noteListViewItemActiveDateColor: @lightTextColor;
+@noteListViewItemDateColor: @mutedTextColor;
+@noteListViewItemSeparatorBorder: none;
+@sidebarMenuItemColor: @mutedTextColor;
+@sidebarMenuSectionColor: #eeffff;
+@sidebarMenuItemActiveBackground: @noteListViewItemActiveBackground;
+@noteSearchBarInputBackground: #32374c;
+@primaryColorFocus: #c792ea;
+
+.header {
+    color: @mutedTextColor;
+}
+
+.sidebar-menu, .note-list-bar-layout {
+    border-right: 2px solid #282b3c;
+}
+
+.sidebar-menu-item.selectable.active {
+    color: @lightTextColor;
+}
+
+.ui.button > i {
+    color: @mutedTextColor;
+}
+
+.editor-title-input.ui.input > input,
+.note-tags-bar-input > .ui.input > input,
+.editor-title-input.ui.input > input:focus {
+    background: @noteSearchBarInputBackground;
+}
+
+.mde-toolbar i.separator {
+    visibility: hidden;
+}

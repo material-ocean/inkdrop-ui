@@ -761,7 +761,7 @@
 /* Secondary */
 .ui.secondary.segment {
   background: #4B5257;
-  color: rgba(255, 255, 255, 0.6);
+  color: #6c739a;
 }
 .ui.secondary.inverted.segment {
   background: #ffffff -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
@@ -773,7 +773,7 @@
 /* Tertiary */
 .ui.tertiary.segment {
   background: #666E74;
-  color: rgba(255, 255, 255, 0.6);
+  color: #6c739a;
 }
 .ui.tertiary.inverted.segment {
   background: #ffffff -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));

@@ -246,7 +246,7 @@
 
 /* Meta */
 .ui.items > .item .meta > a:not(.ui) {
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
 }
 .ui.items > .item .meta > a:not(.ui):hover {
   color: #DDDDDD;
@@ -306,7 +306,7 @@
   padding: 0em 0em 0em;
   top: 0em;
   left: 0em;
-  color: rgba(255, 255, 255, 0.5);
+  color: #929ac9;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: color 0.1s ease;

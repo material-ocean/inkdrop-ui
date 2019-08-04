@@ -25,7 +25,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #2E3235;
+  background: #292d3e;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 14px;
   line-height: 1.4285em;
@@ -157,6 +157,27 @@ input::selection {
         Global Overrides
 *******************************/
 
+.header {
+  color: #6c739a;
+}
+.sidebar-menu,
+.note-list-bar-layout {
+  border-right: 2px solid #282b3c;
+}
+.sidebar-menu-item.selectable.active {
+  color: #929ac9;
+}
+.ui.button > i {
+  color: #6c739a;
+}
+.editor-title-input.ui.input > input,
+.note-tags-bar-input > .ui.input > input,
+.editor-title-input.ui.input > input:focus {
+  background: #32374c;
+}
+.mde-toolbar i.separator {
+  visibility: hidden;
+}
 
 
 /*******************************
@@ -281,7 +302,7 @@ input::selection {
           Page
    --------------------*/
 
-  --page-background: #2E3235;
+  --page-background: #292d3e;
   --page-overflow-x: hidden;
   --line-height: 1.4285em;
   --text-color: #DDDDDD;
@@ -570,8 +591,8 @@ input::selection {
    --------------------*/
 
   --dark-text-color: rgba(255, 255, 255, 0.95);
-  --muted-text-color: rgba(255, 255, 255, 0.6);
-  --light-text-color: rgba(255, 255, 255, 0.5);
+  --muted-text-color: #6c739a;
+  --light-text-color: #929ac9;
   --unselected-text-color: rgba(255, 255, 255, 0.4);
   --hovered-text-color: rgba(255, 255, 255, 0.8);
   --pressed-text-color: rgba(255, 255, 255, 0.9);
@@ -924,7 +945,7 @@ input::selection {
   
 /*---  Colors  ---*/
 
-  --primary-color-focus: #C06D36;
+  --primary-color-focus: #c792ea;
   --secondary-color-focus: #ffffff;
   --red-focus: #ca1010;
   --orange-focus: #ac5922;
@@ -1107,15 +1128,15 @@ input::selection {
         Side Bar
   --------------------*/
 
-  --sidebar-background: #2E3235;
-  --sidebar-menu-item-active-background: rgba(0, 0, 0, 0.2);
-  --sidebar-menu-section-color: rgba(255, 255, 255, 0.5);
-  --sidebar-menu-item-color: #DDDDDD;
-  --sidebar-menu-action-color: rgba(255, 255, 255, 0.5);
-  --sidebar-menu-action-hover-color: #C06D36;
-  --sidebar-sync-status-view-background: #26292C;
+  --sidebar-background: #292d3e;
+  --sidebar-menu-item-active-background: rgba(146, 154, 201, 0.05);
+  --sidebar-menu-section-color: #eeffff;
+  --sidebar-menu-item-color: #6c739a;
+  --sidebar-menu-action-color: #929ac9;
+  --sidebar-menu-action-hover-color: #c792ea;
+  --sidebar-sync-status-view-background: #32374c;
   --sidebar-sync-status-view-text-color: #DDDDDD;
-  --sidebar-sync-status-view-detail-color: rgba(255, 255, 255, 0.5);
+  --sidebar-sync-status-view-detail-color: #929ac9;
   --sidebar-scrollbar-width: 6px;
   --sidebar-scrollbar-track-background: rgba(0, 0, 0, 0.02);
   --sidebar-scrollbar-thumb-background: rgba(255, 255, 255, 0.1);
@@ -1132,27 +1153,27 @@ input::selection {
         Note List Bar
   --------------------*/
 
-  --note-list-bar-background: #34393D;
-  --note-list-view-item-color: rgba(255, 255, 255, 0.6);
-  --note-list-view-item-separator-border: 1px solid #2E3235;
-  --note-list-view-item-date-color: #C06D36;
+  --note-list-bar-background: #292d3e;
+  --note-list-view-item-color: #6c739a;
+  --note-list-view-item-separator-border: none;
+  --note-list-view-item-date-color: #6c739a;
   --note-list-view-item-tag-color: #C06D36;
-  --note-list-view-item-active-background: #C06D36;
-  --note-list-view-item-active-color: #DDDDDD;
-  --note-list-view-item-active-date-color: #DDDDDD;
+  --note-list-view-item-active-background: rgba(146, 154, 201, 0.05);
+  --note-list-view-item-active-color: #929ac9;
+  --note-list-view-item-active-date-color: #929ac9;
   --note-list-view-item-active-tag-color: #DDDDDD;
   --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
-  --note-search-bar-background: #34393D;
+  --note-search-bar-background: #292d3e;
   --note-search-bar-border-bottom: 1px solid #2E3235;
   --note-search-bar-input-border: none;
-  --note-search-bar-input-background: #2E3235;
+  --note-search-bar-input-background: #32374c;
   
 /*-------------------
         Header Note Menu
   --------------------*/
 
   --header-note-menu-background: transparent;
-  --header-note-menu-color: rgba(255, 255, 255, 0.5);
+  --header-note-menu-color: #929ac9;
   --header-note-menu-action-item-separator-border: 1px solid #16181a;
   --header-note-menu-encrypt-button-color: #B58105;
   --header-note-menu-encrypt-button-background: #FFF8DB;

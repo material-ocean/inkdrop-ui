@@ -1,8 +1,8 @@
 {
-  "name": "default-dark-ui",
+  "name": "material-palenight-ui",
   "version": "2.0.0",
   "theme": "ui",
-  "description": "Default Dark UI Theme for Inkdrop",
+  "description": "Material Palenight-inspired UI Theme for Inkdrop",
   "styleSheets": [
     "theme.min.css"
   ],
@@ -14,7 +14,7 @@
     "inkdrop",
     "markdown"
   ],
-  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "author": "Riley Flynn<riley@rileyflynn.me>",
   "license": "MIT",
   "devDependencies": {
     "semantic-ui": "^2.4.2"
