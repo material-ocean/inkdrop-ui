@@ -71,7 +71,7 @@
           justify-content: center;
   margin: 0em 0em;
   padding: 1.14285714em 2em;
-  background: #2E3235;
+  background: #32374c;
   color: #DDDDDD;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -93,7 +93,7 @@
   top: 50%;
   right: 0%;
   border: medium none;
-  background-color: #2E3235;
+  background-color: #32374c;
   width: 1.14285714em;
   height: 1.14285714em;
   border-style: solid;
@@ -401,7 +401,7 @@
 /* Disabled */
 .ui.steps .disabled.step {
   cursor: auto;
-  background: #2E3235;
+  background: #32374c;
   pointer-events: none;
 }
 .ui.steps .disabled.step,
@@ -410,7 +410,7 @@
   color: rgba(255, 255, 255, 0.2);
 }
 .ui.steps .disabled.step:after {
-  background: #2E3235;
+  background: #32374c;
 }
 
 

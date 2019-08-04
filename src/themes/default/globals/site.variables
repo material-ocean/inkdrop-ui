@@ -254,7 +254,7 @@
 @offWhite         : #34393D;
 @darkWhite        : #4B5257;
 @midWhite         : #666E74;
-@white            : #2E3235;
+@white            : #32374c;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;

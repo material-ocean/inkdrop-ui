@@ -295,7 +295,7 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.inverted.header {
-  color: #2E3235;
+  color: #32374c;
 }
 .ui.inverted.header .sub.header {
   color: rgba(0, 0, 0, 0.8);
@@ -662,7 +662,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.attached.header {
-  background: #2E3235;
+  background: #32374c;
   padding: 0.78571429rem 1rem;
   margin-left: -1px;
   margin-right: -1px;

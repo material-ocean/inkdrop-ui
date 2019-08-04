@@ -31,7 +31,7 @@
           flex-direction: column;
   width: 290px;
   min-height: 0px;
-  background: #2E3235;
+  background: #32374c;
   padding: 0em;
   border: none;
   border-radius: 0.28571429rem;
@@ -491,7 +491,7 @@ a.ui.card:hover,
 .ui.link.card:hover {
   cursor: pointer;
   z-index: 5;
-  background: #2E3235;
+  background: #32374c;
   border: none;
   -webkit-box-shadow: 0px 1px 3px 0px #222222, 0px 0px 0px 1px #1B1C1E;
           box-shadow: 0px 1px 3px 0px #222222, 0px 0px 0px 1px #1B1C1E;

@@ -14,6 +14,8 @@
 @sidebarMenuItemActiveBackground: @noteListViewItemActiveBackground;
 @noteSearchBarInputBackground: #32374c;
 @primaryColorFocus: #c792ea;
+@headerNoteMenuActionItemSeparatorBorder: none;
+@whiteActive: #282b3c;
 
 .header {
     color: @mutedTextColor;
@@ -31,12 +33,42 @@
     color: @mutedTextColor;
 }
 
+/*
 .editor-title-input.ui.input > input,
 .note-tags-bar-input > .ui.input > input,
-.editor-title-input.ui.input > input:focus {
+.editor-title-input.ui.input > input:focus,
+.note-tags-bar-input > .ui.input > input:focus {
     background: @noteSearchBarInputBackground;
-}
+}*/
 
 .mde-toolbar i.separator {
     visibility: hidden;
+}
+
+.ui.dropdown .menu.transition {
+    background: @noteListBarBackground;
+}
+
+.ui.modal.transition,
+.ui.modal.transition > .header,
+.ui.modal.transition > .content {
+    background: @noteListBarBackground;
+}
+
+/*
+.ui.modal.transition > .content > .ui.selection.dropdown,
+.content > .ui.form .field input[type=text] {
+    background: @sidebarSyncStatusViewBackground;
+}*/
+
+.ui.modal.transition > .actions {
+    background: @sidebarSyncStatusViewBackground;
+}
+
+.ui.modal.transition > .actions > .button {
+    background: @noteListBarBackground;
+}
+
+.ui.modal.transition > .actions > .button.primary {
+    background: @primaryColorFocus;
 }

@@ -170,13 +170,37 @@ input::selection {
 .ui.button > i {
   color: #6c739a;
 }
+/*
 .editor-title-input.ui.input > input,
 .note-tags-bar-input > .ui.input > input,
-.editor-title-input.ui.input > input:focus {
-  background: #32374c;
-}
+.editor-title-input.ui.input > input:focus,
+.note-tags-bar-input > .ui.input > input:focus {
+    background: @noteSearchBarInputBackground;
+}*/
 .mde-toolbar i.separator {
   visibility: hidden;
+}
+.ui.dropdown .menu.transition {
+  background: #292d3e;
+}
+.ui.modal.transition,
+.ui.modal.transition > .header,
+.ui.modal.transition > .content {
+  background: #292d3e;
+}
+/*
+.ui.modal.transition > .content > .ui.selection.dropdown,
+.content > .ui.form .field input[type=text] {
+    background: @sidebarSyncStatusViewBackground;
+}*/
+.ui.modal.transition > .actions {
+  background: #32374c;
+}
+.ui.modal.transition > .actions > .button {
+  background: #292d3e;
+}
+.ui.modal.transition > .actions > .button.primary {
+  background: #c792ea;
 }
 
 
@@ -257,7 +281,7 @@ input::selection {
 
   
 /* This adjusts the default form input across all elements */
-  --input-background: #2E3235;
+  --input-background: #32374c;
   --input-vertical-padding: 0.78571429em;
   --input-horizontal-padding: 1em;
   --input-padding: 0.78571429em 1em;
@@ -342,7 +366,7 @@ input::selection {
   --loader-fill-color: rgba(0, 0, 0, 0.1);
   --loader-line-color: #767676;
   --inverted-loader-fill-color: rgba(255, 255, 255, 0.15);
-  --inverted-loader-line-color: #2E3235;
+  --inverted-loader-line-color: #32374c;
   
 /*-------------------
           Grid
@@ -410,7 +434,7 @@ input::selection {
   --off-white: #34393D;
   --dark-white: #4B5257;
   --mid-white: #666E74;
-  --white: #2E3235;
+  --white: #32374c;
   
 /*--- Colored Backgrounds ---*/
 
@@ -934,7 +958,7 @@ input::selection {
   
 /*---  Light Tones  ---*/
 
-  --white-hover: #222527;
+  --white-hover: #282c3d;
   --off-white-hover: #282c2f;
   --dark-white-hover: #3f4549;
   
@@ -996,7 +1020,7 @@ input::selection {
   
 /*---  Light Tones  ---*/
 
-  --white-focus: #1b1d1f;
+  --white-focus: #222533;
   --off-white-focus: #212427;
   --dark-white-focus: #383d41;
   
@@ -1058,7 +1082,7 @@ input::selection {
   
 /*---  Light Tones  ---*/
 
-  --white-down: #16181a;
+  --white-down: #1e212d;
   --off-white-down: #1d1f21;
   --dark-white-down: #33383c;
   
@@ -1120,7 +1144,7 @@ input::selection {
   
 /*---  Light Tones  ---*/
 
-  --white-active: #222527;
+  --white-active: #282b3c;
   --off-white-active: #282c2f;
   --dark-white-active: #3f4549;
   
@@ -1164,7 +1188,7 @@ input::selection {
   --note-list-view-item-active-tag-color: #DDDDDD;
   --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
   --note-search-bar-background: #292d3e;
-  --note-search-bar-border-bottom: 1px solid #2E3235;
+  --note-search-bar-border-bottom: 1px solid #32374c;
   --note-search-bar-input-border: none;
   --note-search-bar-input-background: #32374c;
   
@@ -1174,7 +1198,7 @@ input::selection {
 
   --header-note-menu-background: transparent;
   --header-note-menu-color: #929ac9;
-  --header-note-menu-action-item-separator-border: 1px solid #16181a;
+  --header-note-menu-action-item-separator-border: none;
   --header-note-menu-encrypt-button-color: #B58105;
   --header-note-menu-encrypt-button-background: #FFF8DB;
   
@@ -1182,7 +1206,7 @@ input::selection {
         Preferences
   --------------------*/
 
-  --preferences-sidebar-background: #2E3235;
+  --preferences-sidebar-background: #32374c;
   --preferences-sidebar-item-active-background: rgba(192, 109, 54, 0.2);
   --preferences-view-background: #34393D;
   

@@ -47,7 +47,7 @@
   min-width: max-content;
   margin: 0em;
   padding: 0em 0em;
-  background: #2E3235;
+  background: #32374c;
   font-size: 1em;
   text-shadow: none;
   text-align: left;
@@ -356,7 +356,7 @@
           transform: rotateZ(0deg);
   min-width: 14em;
   min-height: 2.71428571em;
-  background: #2E3235;
+  background: #32374c;
   display: inline-block;
   padding: 0.78571429em 2.1em 0.78571429em 1em;
   color: #DDDDDD;
@@ -1271,7 +1271,7 @@ select.ui.dropdown {
   height: 0.5em;
   -webkit-box-shadow: -1px -1px 0px 0px rgba(24, 26, 28, 0.45);
           box-shadow: -1px -1px 0px 0px rgba(24, 26, 28, 0.45);
-  background: #2E3235;
+  background: #32374c;
   z-index: 2;
 }
 .ui.pointing.dropdown > .menu:after {
