@@ -1,22 +1,5 @@
-# Default Dark UI Theme for Inkdrop
+# Material-Palenight-UI
 
-Inkdrop's UI elements are styled based on [Semantic UI](http://semantic-ui.com/).
-It's mostly common in customizing the theme with it, so [their documentation](http://learnsemantic.com/) is very helpful to get started.
+A Material Palenight port for Inkdrop.
 
-Read [the documentation](http://doc.inkdrop.info/manual/creating-a-theme) for detailed instructions.
-
-## How to build
-
-```
-npm install
-gulp build
-```
-
-## Which files to edit
-
- * `src/site/globals/site.variables`
-   - Variables for Inkdrop-specific components
- * `src/site/globals/site.overrides`
-   - Declarations of CSS variables
- * `src/themes/default/globals/site.variables`
-   - Common variables
+**NOTE: At the moment, not all components of the UI are styled properly. All components you are likely to run into in day to day usage are styled (creating notebooks, creating notes, viewing revision history, creating notes, etc.) are styled, but components such as the settings menu are not completely styled**

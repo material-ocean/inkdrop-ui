@@ -17,10 +17,6 @@
 @headerNoteMenuActionItemSeparatorBorder: none;
 @whiteActive: #282b3c;
 
-.header {
-    color: @mutedTextColor;
-}
-
 .sidebar-menu, .note-list-bar-layout {
     border-right: 2px solid #282b3c;
 }
