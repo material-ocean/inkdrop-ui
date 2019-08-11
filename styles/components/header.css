@@ -295,7 +295,7 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.inverted.header {
-  color: #32374c;
+  color: #00010A;
 }
 .ui.inverted.header .sub.header {
   color: rgba(0, 0, 0, 0.8);
@@ -347,13 +347,13 @@ a.ui.inverted.red.header:hover {
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: #C06D36 !important;
+  color: #34575C !important;
 }
 a.ui.orange.header:hover {
   color: #b2602a !important;
 }
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #C06D36;
+  border-bottom: 2px solid #34575C;
 }
 
 /* Inverted */
@@ -634,7 +634,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.block.header {
-  background: #4B5257;
+  background: #00010A;
   padding: 0.78571429rem 1rem;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -662,7 +662,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.attached.header {
-  background: #32374c;
+  background: #00010A;
   padding: 0.78571429rem 1rem;
   margin-left: -1px;
   margin-right: -1px;
@@ -671,7 +671,7 @@ a.ui.inverted.grey.header:hover {
   border: 1px solid #1B1C1E;
 }
 .ui.attached.block.header {
-  background: #4B5257;
+  background: #00010A;
 }
 .ui.attached:not(.top):not(.bottom).header {
   margin-top: 0em;

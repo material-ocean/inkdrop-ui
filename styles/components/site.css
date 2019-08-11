@@ -25,7 +25,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #292d3e;
+  background: #0F111A;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 14px;
   line-height: 1.4285em;
@@ -101,11 +101,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #C06D36;
+  color: #34575C;
   text-decoration: none;
 }
 a:hover {
-  color: #C06D36;
+  color: #34575C;
   text-decoration: none;
 }
 
@@ -178,12 +178,12 @@ input::selection {
   visibility: hidden;
 }
 .ui.dropdown .menu.transition {
-  background: #292d3e;
+  background: #0F111A;
 }
 .ui.modal.transition,
 .ui.modal.transition > .header,
 .ui.modal.transition > .content {
-  background: #292d3e;
+  background: #0F111A;
 }
 /*
 .ui.modal.transition > .content > .ui.selection.dropdown,
@@ -191,10 +191,10 @@ input::selection {
     background: @sidebarSyncStatusViewBackground;
 }*/
 .ui.modal.transition > .actions {
-  background: #32374c;
+  background: #00010A;
 }
 .ui.modal.transition > .actions > .button {
-  background: #292d3e;
+  background: #0F111A;
 }
 .ui.modal.transition > .actions > .button.primary {
   background: #c792ea;
@@ -255,7 +255,7 @@ input::selection {
       Brand Colors
    --------------------*/
 
-  --primary-color: #C06D36;
+  --primary-color: #34575C;
   --secondary-color: #F9FAFB;
   --light-primary-color: #54C8FF;
   --light-secondary-color: #545454;
@@ -278,7 +278,7 @@ input::selection {
 
   
 /* This adjusts the default form input across all elements */
-  --input-background: #32374c;
+  --input-background: #00010A;
   --input-vertical-padding: 0.78571429em;
   --input-horizontal-padding: 1em;
   --input-padding: 0.78571429em 1em;
@@ -323,7 +323,7 @@ input::selection {
           Page
    --------------------*/
 
-  --page-background: #292d3e;
+  --page-background: #0F111A;
   --page-overflow-x: hidden;
   --line-height: 1.4285em;
   --text-color: #6c739a;
@@ -339,9 +339,9 @@ input::selection {
          Links
    --------------------*/
 
-  --link-color: #C06D36;
+  --link-color: #34575C;
   --link-underline: none;
-  --link-hover-color: #C06D36;
+  --link-hover-color: #34575C;
   --link-hover-underline: none;
   
 /*-------------------
@@ -363,7 +363,7 @@ input::selection {
   --loader-fill-color: rgba(0, 0, 0, 0.1);
   --loader-line-color: #767676;
   --inverted-loader-fill-color: rgba(255, 255, 255, 0.15);
-  --inverted-loader-line-color: #32374c;
+  --inverted-loader-line-color: #00010A;
   
 /*-------------------
           Grid
@@ -396,7 +396,7 @@ input::selection {
 /*---  Colors  ---*/
 
   --red: #DB2828;
-  --orange: #C06D36;
+  --orange: #34575C;
   --yellow: #FBBD08;
   --olive: #B5CC18;
   --green: #21BA45;
@@ -428,10 +428,10 @@ input::selection {
 /*---   Neutrals  ---*/
 
   --full-black: #FFFFFF;
-  --off-white: #34393D;
-  --dark-white: #4B5257;
+  --off-white: #0F111A;
+  --dark-white: #00010A;
   --mid-white: #666E74;
-  --white: #32374c;
+  --white: #00010A;
   
 /*--- Colored Backgrounds ---*/
 
@@ -464,7 +464,7 @@ input::selection {
 /*--- Colored Text ---*/
 
   --red-text-color: #DB2828;
-  --orange-text-color: #C06D36;
+  --orange-text-color: #34575C;
   --yellow-text-color: #B58105;
   --olive-text-color: #8ABC1E;
   --green-text-color: #1EBC30;
@@ -478,7 +478,7 @@ input::selection {
 /*--- Colored Border ---*/
 
   --red-border-color: #DB2828;
-  --orange-border-color: #C06D36;
+  --orange-border-color: #34575C;
   --yellow-border-color: #B58105;
   --olive-border-color: #8ABC1E;
   --green-border-color: #1EBC30;
@@ -655,7 +655,7 @@ input::selection {
   --solid-selected-border-color: #222222;
   --white-border-color: rgba(0, 0, 0, 0.1);
   --selected-white-border-color: rgba(0, 0, 0, 0.8);
-  --solid-white-border-color: #34393D;
+  --solid-white-border-color: #0F111A;
   --selected-solid-white-border-color: #4D5B66;
   
 /*-------------------
@@ -1149,13 +1149,13 @@ input::selection {
         Side Bar
   --------------------*/
 
-  --sidebar-background: #292d3e;
+  --sidebar-background: #0F111A;
   --sidebar-menu-item-active-background: rgba(146, 154, 201, 0.05);
   --sidebar-menu-section-color: #eeffff;
   --sidebar-menu-item-color: #6c739a;
   --sidebar-menu-action-color: #929ac9;
   --sidebar-menu-action-hover-color: #c792ea;
-  --sidebar-sync-status-view-background: #32374c;
+  --sidebar-sync-status-view-background: #00010A;
   --sidebar-sync-status-view-text-color: #6c739a;
   --sidebar-sync-status-view-detail-color: #929ac9;
   --sidebar-scrollbar-width: 6px;
@@ -1174,20 +1174,20 @@ input::selection {
         Note List Bar
   --------------------*/
 
-  --note-list-bar-background: #292d3e;
+  --note-list-bar-background: #0F111A;
   --note-list-view-item-color: #6c739a;
   --note-list-view-item-separator-border: none;
   --note-list-view-item-date-color: #6c739a;
-  --note-list-view-item-tag-color: #C06D36;
+  --note-list-view-item-tag-color: #34575C;
   --note-list-view-item-active-background: rgba(146, 154, 201, 0.05);
   --note-list-view-item-active-color: #929ac9;
   --note-list-view-item-active-date-color: #929ac9;
   --note-list-view-item-active-tag-color: #6c739a;
   --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
-  --note-search-bar-background: #292d3e;
-  --note-search-bar-border-bottom: 1px solid #32374c;
+  --note-search-bar-background: #0F111A;
+  --note-search-bar-border-bottom: 1px solid #00010A;
   --note-search-bar-input-border: none;
-  --note-search-bar-input-background: #32374c;
+  --note-search-bar-input-background: #00010A;
   
 /*-------------------
         Header Note Menu
@@ -1203,9 +1203,9 @@ input::selection {
         Preferences
   --------------------*/
 
-  --preferences-sidebar-background: #32374c;
-  --preferences-sidebar-item-active-background: rgba(192, 109, 54, 0.2);
-  --preferences-view-background: #34393D;
+  --preferences-sidebar-background: #00010A;
+  --preferences-sidebar-item-active-background: rgba(52, 87, 92, 0.2);
+  --preferences-view-background: #0F111A;
   
 /*-------------------
         Task Icons

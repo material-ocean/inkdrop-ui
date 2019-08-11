@@ -17,7 +17,7 @@
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: #4B5257;
+  background: #00010A;
   padding: 1em 1.5em;
   line-height: 1.4285em;
   color: #6c739a;
@@ -374,9 +374,9 @@
 }
 .ui.orange.message {
   background-color: #FFEDDE;
-  color: #C06D36;
-  -webkit-box-shadow: 0px 0px 0px 1px #C06D36 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #C06D36 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #34575C;
+  -webkit-box-shadow: 0px 0px 0px 1px #34575C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #34575C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.orange.message .header {
   color: #ac6230;

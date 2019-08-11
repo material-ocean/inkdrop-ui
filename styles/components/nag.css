@@ -40,7 +40,7 @@ a.ui.nag {
 .ui.nag > .title {
   display: inline-block;
   margin: 0em 0.5em;
-  color: #32374c;
+  color: #00010A;
 }
 .ui.nag > .close.icon {
   cursor: pointer;
@@ -50,7 +50,7 @@ a.ui.nag {
   right: 1em;
   font-size: 1em;
   margin: -0.5em 0em 0em;
-  color: #32374c;
+  color: #00010A;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
 }
@@ -110,7 +110,7 @@ a.ui.nag {
 
 .ui.inverted.nags .nag,
 .ui.inverted.nag {
-  background-color: #4B5257;
+  background-color: #00010A;
   color: rgba(255, 255, 255, 0.95);
 }
 .ui.inverted.nags .nag .close,

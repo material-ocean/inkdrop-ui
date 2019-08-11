@@ -7,8 +7,8 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #C06D36;
-@primaryColorFocus: #C06D36;
+@primaryColor: #34575C;
+@primaryColorFocus: #34575C;
 @linkHoverColor: @primaryColor;
 
 
@@ -38,7 +38,7 @@
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: #34393D;
+@noteListBarBackground: #0F111A;
 @noteListViewItemColor: @mutedTextColor;
 @noteListViewItemSeparatorBorder: 1px solid @white;
 @noteListViewItemDateColor: @primaryColor;
@@ -66,7 +66,7 @@
       Preferences
 --------------------*/
 @preferencesSidebarBackground: @white;
-@preferencesSidebarItemActiveBackground: rgba(192, 109, 54, 0.2);
+@preferencesSidebarItemActiveBackground: rgba(52, 87, 92, 0.2);
 @preferencesViewBackground: @offWhite;
 
 /*-------------------

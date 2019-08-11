@@ -27,7 +27,7 @@
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #32374c;
+  background: #00010A;
   border: 1px solid rgba(24, 26, 28, 0.45);
   color: #6c739a;
   -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
@@ -63,7 +63,7 @@
   white-space: normal;
   text-align: left;
   text-transform: none;
-  background: #32374c;
+  background: #00010A;
   margin-top: 0.5em;
   width: 18em;
   border-radius: 0.28571429rem;
@@ -159,7 +159,7 @@
 .ui.search > .results > .action {
   display: block;
   border-top: none;
-  background: #4B5257;
+  background: #00010A;
   padding: 0.92857143em 1em;
   color: #6c739a;
   font-weight: bold;
@@ -178,7 +178,7 @@
 
 .ui.search > .prompt:focus {
   border-color: rgba(24, 26, 28, 0.35);
-  background: #32374c;
+  background: #00010A;
   color: rgba(255, 255, 255, 0.95);
 }
 
@@ -223,7 +223,7 @@
 
 .ui.search > .results .result:hover,
 .ui.category.search > .results .category .result:hover {
-  background: #34393D;
+  background: #0F111A;
 }
 .ui.search .action:hover {
   background: #E0E0E0;
@@ -234,7 +234,7 @@
 ---------------*/
 
 .ui.category.search > .results .category.active {
-  background: #4B5257;
+  background: #00010A;
 }
 .ui.category.search > .results .category.active > .name {
   color: #6c739a;
@@ -243,7 +243,7 @@
 .ui.category.search > .results .category .result.active {
   position: relative;
   border-left-color: rgba(24, 26, 28, 0.1);
-  background: #4B5257;
+  background: #00010A;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -320,7 +320,7 @@
 /* Category */
 .ui.category.search > .results .category {
   display: table-row;
-  background: #4B5257;
+  background: #00010A;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: background 0.1s ease, border-color 0.1s ease;
@@ -358,7 +358,7 @@
 /* Category Result */
 .ui.category.search > .results .category .results {
   display: table-cell;
-  background: #32374c;
+  background: #00010A;
   border-left: 1px solid rgba(24, 26, 28, 0.45);
   border-bottom: 1px solid rgba(24, 26, 28, 0.1);
 }

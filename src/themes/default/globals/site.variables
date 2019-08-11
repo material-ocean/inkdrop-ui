@@ -121,7 +121,7 @@
         Page
 --------------------*/
 
-@pageBackground      : #292d3e;
+@pageBackground      : #0F111A;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
@@ -221,7 +221,7 @@
 
 /*---  Colors  ---*/
 @red              : #DB2828;
-@orange           : #C06D36;
+@orange           : #34575C;
 @yellow           : #FBBD08;
 @olive            : #B5CC18;
 @green            : #21BA45;
@@ -251,10 +251,10 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
-@darkWhite        : #4B5257;
+@offWhite         : #0F111A;
+@darkWhite        : #00010A;
 @midWhite         : #666E74;
-@white            : #32374c;
+@white            : #00010A;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
@@ -482,7 +482,7 @@
 @whiteBorderColor              : rgba(0, 0, 0, 0.1);
 @selectedWhiteBorderColor      : rgba(0, 0, 0, 0.8);
 
-@solidWhiteBorderColor         : #34393D;
+@solidWhiteBorderColor         : #0F111A;
 @selectedSolidWhiteBorderColor : #4D5B66;
 
 

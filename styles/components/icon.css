@@ -208,10 +208,10 @@ i.bordered.inverted.icon {
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
   background-color: #F9FAFB !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 i.inverted.icon {
-  color: #32374c;
+  color: #00010A;
 }
 
 /*-------------------
@@ -229,20 +229,20 @@ i.inverted.red.icon {
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
   background-color: #DB2828 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Orange */
 i.orange.icon {
-  color: #C06D36 !important;
+  color: #34575C !important;
 }
 i.inverted.orange.icon {
   color: #FF851B !important;
 }
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
-  background-color: #C06D36 !important;
-  color: #32374c !important;
+  background-color: #34575C !important;
+  color: #00010A !important;
 }
 
 /* Yellow */
@@ -255,7 +255,7 @@ i.inverted.yellow.icon {
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
   background-color: #FBBD08 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Olive */
@@ -268,7 +268,7 @@ i.inverted.olive.icon {
 i.inverted.bordered.olive.icon,
 i.inverted.circular.olive.icon {
   background-color: #B5CC18 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Green */
@@ -281,7 +281,7 @@ i.inverted.green.icon {
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
   background-color: #21BA45 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Teal */
@@ -294,7 +294,7 @@ i.inverted.teal.icon {
 i.inverted.bordered.teal.icon,
 i.inverted.circular.teal.icon {
   background-color: #00B5AD !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Blue */
@@ -307,7 +307,7 @@ i.inverted.blue.icon {
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
   background-color: #2185D0 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Violet */
@@ -320,7 +320,7 @@ i.inverted.violet.icon {
 i.inverted.bordered.violet.icon,
 i.inverted.circular.violet.icon {
   background-color: #6435C9 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Purple */
@@ -333,7 +333,7 @@ i.inverted.purple.icon {
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
   background-color: #A333C8 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Pink */
@@ -346,7 +346,7 @@ i.inverted.pink.icon {
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
   background-color: #E03997 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Brown */
@@ -359,7 +359,7 @@ i.inverted.brown.icon {
 i.inverted.bordered.brown.icon,
 i.inverted.circular.brown.icon {
   background-color: #A5673F !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Grey */
@@ -372,7 +372,7 @@ i.inverted.grey.icon {
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
   background-color: #767676 !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /* Black */
@@ -385,7 +385,7 @@ i.inverted.black.icon {
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
   background-color: #F9FAFB !important;
-  color: #32374c !important;
+  color: #00010A !important;
 }
 
 /*-------------------
@@ -474,7 +474,7 @@ i.icons .corner.icon {
   -webkit-transform: none;
           transform: none;
   font-size: 0.45em;
-  text-shadow: -1px -1px 0 #32374c, 1px -1px 0 #32374c, -1px 1px 0 #32374c, 1px 1px 0 #32374c;
+  text-shadow: -1px -1px 0 #00010A, 1px -1px 0 #00010A, -1px 1px 0 #00010A, 1px 1px 0 #00010A;
 }
 i.icons .top.right.corner.icon {
   top: 0;

@@ -2,8 +2,8 @@
         Global Overrides
 *******************************/
 
-@sidebarSyncStatusViewBackground: #32374c;
-@noteListBarBackground: #292d3e;
+@sidebarSyncStatusViewBackground: #00010A;
+@noteListBarBackground: #0F111A;
 @noteListViewItemActiveBackground: rgba(146, 154, 201, 0.05);
 @noteListViewItemActiveColor: @lightTextColor;
 @noteListViewItemActiveDateColor: @lightTextColor;
@@ -12,7 +12,7 @@
 @sidebarMenuItemColor: @mutedTextColor;
 @sidebarMenuSectionColor: #eeffff;
 @sidebarMenuItemActiveBackground: @noteListViewItemActiveBackground;
-@noteSearchBarInputBackground: #32374c;
+@noteSearchBarInputBackground: #00010A;
 @primaryColorFocus: #c792ea;
 @headerNoteMenuActionItemSeparatorBorder: none;
 @whiteActive: #282b3c;

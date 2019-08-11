@@ -27,7 +27,7 @@
   border: 1px solid #1B1C1E;
   line-height: 1.4285em;
   max-width: 250px;
-  background: #32374c;
+  background: #00010A;
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
@@ -51,7 +51,7 @@
   content: '';
   width: 0.71428571em;
   height: 0.71428571em;
-  background: #32374c;
+  background: #00010A;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 2;
@@ -83,7 +83,7 @@
   font-size: 1rem;
   width: 0.71428571em;
   height: 0.71428571em;
-  background: #32374c;
+  background: #00010A;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 2;
@@ -103,7 +103,7 @@
   border: 1px solid #1B1C1E;
   line-height: 1.4285em;
   max-width: none;
-  background: #32374c;
+  background: #00010A;
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
@@ -120,7 +120,7 @@
   right: auto;
   bottom: 100%;
   left: 50%;
-  background: #32374c;
+  background: #00010A;
   margin-left: -0.07142857rem;
   margin-bottom: 0.14285714rem;
 }
@@ -221,14 +221,14 @@
 /* Popup  */
 [data-tooltip][data-inverted]:after {
   background: #F9FAFB;
-  color: #32374c;
+  color: #00010A;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 [data-tooltip][data-inverted]:after .header {
   background-color: none;
-  color: #32374c;
+  color: #00010A;
 }
 
 /*--------------
@@ -251,7 +251,7 @@
   right: auto;
   bottom: 100%;
   left: 50%;
-  background: #32374c;
+  background: #00010A;
   margin-left: -0.07142857rem;
   margin-bottom: 0.14285714rem;
 }
@@ -371,22 +371,22 @@
 
 /* Arrow */
 [data-position~="bottom"][data-tooltip]:before {
-  background: #32374c;
+  background: #00010A;
   -webkit-box-shadow: -1px -1px 0px 0px #030303;
           box-shadow: -1px -1px 0px 0px #030303;
 }
 [data-position="left center"][data-tooltip]:before {
-  background: #32374c;
+  background: #00010A;
   -webkit-box-shadow: 1px -1px 0px 0px #030303;
           box-shadow: 1px -1px 0px 0px #030303;
 }
 [data-position="right center"][data-tooltip]:before {
-  background: #32374c;
+  background: #00010A;
   -webkit-box-shadow: -1px 1px 0px 0px #030303;
           box-shadow: -1px 1px 0px 0px #030303;
 }
 [data-position~="top"][data-tooltip]:before {
-  background: #32374c;
+  background: #00010A;
 }
 
 /* Inverted Arrow Color */
@@ -590,14 +590,14 @@
 
 /* Arrow Color By Location */
 .ui.bottom.popup:before {
-  background: #32374c;
+  background: #00010A;
 }
 .ui.right.center.popup:before,
 .ui.left.center.popup:before {
-  background: #32374c;
+  background: #00010A;
 }
 .ui.top.popup:before {
-  background: #32374c;
+  background: #00010A;
 }
 
 /* Inverted Arrow Color */
@@ -693,14 +693,14 @@
 /* Inverted colors  */
 .ui.inverted.popup {
   background: #F9FAFB;
-  color: #32374c;
+  color: #00010A;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 .ui.inverted.popup .header {
   background-color: none;
-  color: #32374c;
+  color: #00010A;
 }
 .ui.inverted.popup:before {
   background-color: #F9FAFB;

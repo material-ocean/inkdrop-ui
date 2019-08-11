@@ -39,7 +39,7 @@
   line-height: 1.21428571em;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   padding: 0.67857143em 1em;
-  background: #32374c;
+  background: #00010A;
   border: 1px solid rgba(24, 26, 28, 0.45);
   color: #6c739a;
   border-radius: 0.28571429rem;
@@ -141,7 +141,7 @@
 .ui.input.focus > input,
 .ui.input > input:focus {
   border-color: #85B7D9;
-  background: #32374c;
+  background: #00010A;
   color: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -227,7 +227,7 @@
 
 /* Transparent Inverted */
 .ui.transparent.inverted.input {
-  color: #32374c;
+  color: #00010A;
 }
 .ui.transparent.inverted.input > input {
   color: inherit;
