@@ -650,12 +650,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #34575C;
+  color: #ff4151;
   text-decoration: none;
 }
 
 a:hover {
-  color: #34575C;
+  color: #ff4151;
   text-decoration: none;
 }
 
@@ -801,7 +801,7 @@ input::selection {
   /*-------------------
       Brand Colors
    --------------------*/
-  --primary-color: #34575C;
+  --primary-color: #ff4151;
   --secondary-color: #F9FAFB;
   --light-primary-color: #54C8FF;
   --light-secondary-color: #545454;
@@ -866,9 +866,9 @@ input::selection {
   /*-------------------
          Links
    --------------------*/
-  --link-color: #34575C;
+  --link-color: #ff4151;
   --link-underline: none;
-  --link-hover-color: #34575C;
+  --link-hover-color: #ff4151;
   --link-hover-underline: none;
   /*-------------------
     Highlighted Text
@@ -909,7 +909,7 @@ input::selection {
    --------------------*/
   /*---  Colors  ---*/
   --red: #DB2828;
-  --orange: #34575C;
+  --orange: #ff4151;
   --yellow: #FBBD08;
   --olive: #B5CC18;
   --green: #21BA45;
@@ -967,7 +967,7 @@ input::selection {
   --brown-header-color: #935b38;
   /*--- Colored Text ---*/
   --red-text-color: #DB2828;
-  --orange-text-color: #34575C;
+  --orange-text-color: #ff4151;
   --yellow-text-color: #B58105;
   --olive-text-color: #8ABC1E;
   --green-text-color: #1EBC30;
@@ -979,7 +979,7 @@ input::selection {
   --brown-text-color: #A5673F;
   /*--- Colored Border ---*/
   --red-border-color: #DB2828;
-  --orange-border-color: #34575C;
+  --orange-border-color: #ff4151;
   --yellow-border-color: #B58105;
   --olive-border-color: #8ABC1E;
   --green-border-color: #1EBC30;
@@ -1574,7 +1574,7 @@ input::selection {
   --note-list-view-item-color: #6c739a;
   --note-list-view-item-separator-border: none;
   --note-list-view-item-date-color: #6c739a;
-  --note-list-view-item-tag-color: #34575C;
+  --note-list-view-item-tag-color: #ff4151;
   --note-list-view-item-active-background: rgba(146, 154, 201, 0.05);
   --note-list-view-item-active-color: #929ac9;
   --note-list-view-item-active-date-color: #929ac9;
@@ -3928,7 +3928,7 @@ input::selection {
 
 .ui.orange.buttons .button,
 .ui.orange.button {
-  background-color: #34575C;
+  background-color: #ff4151;
   color: #00010A;
   text-shadow: none;
   background-image: none;
@@ -3973,9 +3973,9 @@ input::selection {
 
 .ui.basic.orange.buttons .button,
 .ui.basic.orange.button {
-  -webkit-box-shadow: 0px 0px 0px 1px #34575C inset !important;
-  box-shadow: 0px 0px 0px 1px #34575C inset !important;
-  color: #34575C !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #ff4151 inset !important;
+  box-shadow: 0px 0px 0px 1px #ff4151 inset !important;
+  color: #ff4151 !important;
 }
 
 .ui.basic.orange.buttons .button:hover,
@@ -5332,7 +5332,7 @@ input::selection {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #34575C;
+  background-color: #ff4151;
   color: #00010A;
   text-shadow: none;
   background-image: none;
@@ -5352,7 +5352,7 @@ input::selection {
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #34575C;
+  background-color: #ff4151;
   color: #00010A;
   text-shadow: none;
 }
@@ -5377,9 +5377,9 @@ input::selection {
 
 .ui.basic.primary.buttons .button,
 .ui.basic.primary.button {
-  -webkit-box-shadow: 0px 0px 0px 1px #34575C inset !important;
-  box-shadow: 0px 0px 0px 1px #34575C inset !important;
-  color: #34575C !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #ff4151 inset !important;
+  box-shadow: 0px 0px 0px 1px #ff4151 inset !important;
+  color: #ff4151 !important;
 }
 
 .ui.basic.primary.buttons .button:hover,
@@ -5393,8 +5393,8 @@ input::selection {
 .ui.basic.primary.buttons .button:focus,
 .ui.basic.primary.button:focus {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #34575C inset !important;
-  box-shadow: 0px 0px 0px 1px #34575C inset !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #ff4151 inset !important;
+  box-shadow: 0px 0px 0px 1px #ff4151 inset !important;
   color: #b2602a !important;
 }
 
@@ -8087,7 +8087,7 @@ a.ui.inverted.red.header:hover {
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: #34575C !important;
+  color: #ff4151 !important;
 }
 
 a.ui.orange.header:hover {
@@ -8095,7 +8095,7 @@ a.ui.orange.header:hover {
 }
 
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #34575C;
+  border-bottom: 2px solid #ff4151;
 }
 
 /* Inverted */
@@ -8775,7 +8775,7 @@ i.inverted.circular.red.icon {
 /* Orange */
 
 i.orange.icon {
-  color: #34575C !important;
+  color: #ff4151 !important;
 }
 
 i.inverted.orange.icon {
@@ -8784,7 +8784,7 @@ i.inverted.orange.icon {
 
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
-  background-color: #34575C !important;
+  background-color: #ff4151 !important;
   color: #00010A !important;
 }
 
@@ -16171,8 +16171,8 @@ a.ui.basic.red.label:hover {
 
 .ui.orange.labels .label,
 .ui.orange.label {
-  background-color: #34575C !important;
-  border-color: #34575C !important;
+  background-color: #ff4151 !important;
+  border-color: #ff4151 !important;
   color: #F9FAFB !important;
 }
 
@@ -16202,8 +16202,8 @@ a.ui.orange.label:hover {
 
 .ui.basic.orange.label {
   background: none #00010A !important;
-  color: #34575C !important;
-  border-color: #34575C !important;
+  color: #ff4151 !important;
+  border-color: #ff4151 !important;
 }
 
 .ui.basic.orange.labels a.label:hover,
@@ -16736,7 +16736,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #00010A;
-  color: #34575C;
+  color: #ff4151;
   -webkit-box-shadow: 1px solid rgba(24, 26, 28, 0.45);
   box-shadow: 1px solid rgba(24, 26, 28, 0.45);
   -webkit-box-shadow: none;
@@ -17208,12 +17208,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #34575C;
+  color: #ff4151;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /* Linked Item Icons */
@@ -17228,12 +17228,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #34575C !important;
+  color: #ff4151 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #34575C !important;
+  color: #ff4151 !important;
 }
 
 /* Floated Content */
@@ -17409,7 +17409,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /* Linking Content */
@@ -17419,7 +17419,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #34575C !important;
+  color: #ff4151 !important;
 }
 
 /*-------------------
@@ -19858,11 +19858,11 @@ ol.ui.horizontal.list li:before,
 /* Orange */
 
 .ui.orange.segment:not(.inverted) {
-  border-top: 2px solid #34575C !important;
+  border-top: 2px solid #ff4151 !important;
 }
 
 .ui.inverted.orange.segment {
-  background-color: #34575C !important;
+  background-color: #ff4151 !important;
   color: #00010A !important;
 }
 
@@ -20580,7 +20580,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #34575C;
+  color: #ff4151;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -20922,11 +20922,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #34575C;
+  color: #ff4151;
 }
 
 .ui.breadcrumb a:hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /* Icon Divider */
@@ -23727,7 +23727,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .orange.row,
 .ui.grid > .orange.column,
 .ui.grid > .row > .orange.column {
-  background-color: #34575C !important;
+  background-color: #ff4151 !important;
   color: #00010A;
 }
 
@@ -25948,8 +25948,8 @@ Floated Menu / Item
 
 .ui.menu .orange.active.item,
 .ui.orange.menu .active.item {
-  border-color: #34575C !important;
-  color: #34575C !important;
+  border-color: #ff4151 !important;
+  color: #ff4151 !important;
 }
 
 .ui.menu .yellow.active.item,
@@ -26164,7 +26164,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .orange.active.item,
 .ui.inverted.orange.menu {
-  background-color: #34575C;
+  background-color: #ff4151;
 }
 
 .ui.inverted.orange.menu .item:before {
@@ -27208,9 +27208,9 @@ Floated Menu / Item
 
 .ui.orange.message {
   background-color: #FFEDDE;
-  color: #34575C;
-  -webkit-box-shadow: 0px 0px 0px 1px #34575C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  box-shadow: 0px 0px 0px 1px #34575C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #ff4151;
+  -webkit-box-shadow: 0px 0px 0px 1px #ff4151 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #ff4151 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 .ui.orange.message .header {
@@ -28081,11 +28081,11 @@ Floated Menu / Item
 /* Orange */
 
 .ui.orange.table {
-  border-top: 0.2em solid #34575C;
+  border-top: 0.2em solid #ff4151;
 }
 
 .ui.inverted.orange.table {
-  background-color: #34575C !important;
+  background-color: #ff4151 !important;
   color: #00010A !important;
 }
 
@@ -29276,7 +29276,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /* Meta */
@@ -29396,7 +29396,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /*******************************
@@ -29502,8 +29502,8 @@ a.ui.card:hover,
 .ui.orange.cards > .card,
 .ui.cards > .orange.card,
 .ui.orange.card {
-  -webkit-box-shadow: 0px 0px 0px 1px #1B1C1E, 0px 2px 0px 0px #34575C, 0px 1px 3px 0px #1B1C1E;
-  box-shadow: 0px 0px 0px 1px #1B1C1E, 0px 2px 0px 0px #34575C, 0px 1px 3px 0px #1B1C1E;
+  -webkit-box-shadow: 0px 0px 0px 1px #1B1C1E, 0px 2px 0px 0px #ff4151, 0px 1px 3px 0px #1B1C1E;
+  box-shadow: 0px 0px 0px 1px #1B1C1E, 0px 2px 0px 0px #ff4151, 0px 1px 3px 0px #1B1C1E;
 }
 
 .ui.orange.cards > .card:hover,
@@ -30171,7 +30171,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /*--------------
@@ -30910,7 +30910,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /* Meta */
@@ -31141,7 +31141,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #34575C;
+  color: #ff4151;
 }
 
 /*--------------
@@ -31522,7 +31522,7 @@ a.ui.card:hover,
 .ui.orange.statistics .statistic > .value,
 .ui.statistics .orange.statistic > .value,
 .ui.orange.statistic > .value {
-  color: #34575C;
+  color: #ff4151;
 }
 
 .ui.yellow.statistics .statistic > .value,
@@ -32655,7 +32655,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #34575C !important;
+  background-color: #ff4151 !important;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:after,
@@ -32674,7 +32674,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #34575C !important;
+  background-color: #ff4151 !important;
 }
 
 /*******************************
@@ -36883,7 +36883,7 @@ a.ui.nag {
 /* Orange */
 
 .ui.orange.progress .bar {
-  background-color: #34575C;
+  background-color: #ff4151;
 }
 
 .ui.orange.inverted.progress .bar {
